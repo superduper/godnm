@@ -1,0 +1,9 @@
+image: superduper/go_buildtools:1.3
+script:
+  - gpm 
+  - go build github.com/superduper/godnm/dnm
+  - cd dnm && go test
+notify:
+  email:
+    recipients:
+      - viktor@superduper.com

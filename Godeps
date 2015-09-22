@@ -1,0 +1,7 @@
+github.com/superduper/goamz
+github.com/superduper/glog
+github.com/superduper/gocontract
+github.com/superduper/goannoying
+github.com/onsi/gomega
+github.com/onsi/ginkgo
+github.com/bitly/go-simplejson  # goamz dep
